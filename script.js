@@ -26,7 +26,7 @@ document.getElementById("style").addEventListener("click", () => {
     });
 });
 
-//
+// clear list
 document.getElementById("clear").addEventListener("click", () => {
     const itemlist = document.getElementById("itemlist");
     itemlist.innerHTML = ""; 
